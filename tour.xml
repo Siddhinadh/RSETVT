@@ -1,0 +1,1335 @@
+﻿<krpano version="1.21" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="true"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+	
+	<scene name="scene_20241103_044451_495" title="20241103_044451_495" onstart="" thumburl="panos/20241103_044451_495.tiles/thumb.jpg" lat="9.99366111" lng="76.35838611" alt="-87.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044451_495.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044451_495.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044456_399" title="20241103_044456_399" onstart="" thumburl="panos/20241103_044456_399.tiles/thumb.jpg" lat="9.99335833" lng="76.35841667" alt="-74.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044456_399.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044456_399.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044503_288" title="20241103_044503_288" onstart="" thumburl="panos/20241103_044503_288.tiles/thumb.jpg" lat="9.99324167" lng="76.35841944" alt="-68.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044503_288.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044503_288.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044507_294" title="20241103_044507_294" onstart="" thumburl="panos/20241103_044507_294.tiles/thumb.jpg" lat="9.99329167" lng="76.35838333" alt="-85.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044507_294.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044507_294.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044511_096" title="20241103_044511_096" onstart="" thumburl="panos/20241103_044511_096.tiles/thumb.jpg" lat="9.99328333" lng="76.35817222" alt="-83.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044511_096.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044511_096.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044514_929" title="20241103_044514_929" onstart="" thumburl="panos/20241103_044514_929.tiles/thumb.jpg" lat="9.99328333" lng="76.35817222" alt="-83.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044514_929.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044514_929.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044518_982" title="20241103_044518_982" onstart="" thumburl="panos/20241103_044518_982.tiles/thumb.jpg" lat="9.99317222" lng="76.35811944" alt="-91.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044518_982.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044518_982.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044523_001" title="20241103_044523_001" onstart="" thumburl="panos/20241103_044523_001.tiles/thumb.jpg" lat="9.99335833" lng="76.35821111" alt="-98.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044523_001.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044523_001.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044526_546" title="20241103_044526_546" onstart="" thumburl="panos/20241103_044526_546.tiles/thumb.jpg" lat="9.99337222" lng="76.35820833" alt="-93.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044526_546.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044526_546.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044530_311" title="20241103_044530_311" onstart="" thumburl="panos/20241103_044530_311.tiles/thumb.jpg" lat="9.99346111" lng="76.35836389" alt="-91.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044530_311.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044530_311.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044534_048" title="20241103_044534_048" onstart="" thumburl="panos/20241103_044534_048.tiles/thumb.jpg" lat="9.99352500" lng="76.35838889" alt="-89.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044534_048.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044534_048.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044537_879" title="20241103_044537_879" onstart="" thumburl="panos/20241103_044537_879.tiles/thumb.jpg" lat="9.99354444" lng="76.35841944" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044537_879.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044537_879.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044542_096" title="20241103_044542_096" onstart="" thumburl="panos/20241103_044542_096.tiles/thumb.jpg" lat="9.99343333" lng="76.35841667" alt="-91.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044542_096.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044542_096.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044546_095" title="20241103_044546_095" onstart="" thumburl="panos/20241103_044546_095.tiles/thumb.jpg" lat="9.99333056" lng="76.35855278" alt="-87.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044546_095.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044546_095.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044549_987" title="20241103_044549_987" onstart="" thumburl="panos/20241103_044549_987.tiles/thumb.jpg" lat="9.99326389" lng="76.35866389" alt="-82.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044549_987.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044549_987.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044553_669" title="20241103_044553_669" onstart="" thumburl="panos/20241103_044553_669.tiles/thumb.jpg" lat="9.99322500" lng="76.35872500" alt="-88.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044553_669.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044553_669.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044558_055" title="20241103_044558_055" onstart="" thumburl="panos/20241103_044558_055.tiles/thumb.jpg" lat="9.99328056" lng="76.35865556" alt="-99.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044558_055.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044558_055.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044601_996" title="20241103_044601_996" onstart="" thumburl="panos/20241103_044601_996.tiles/thumb.jpg" lat="9.99321111" lng="76.35856944" alt="-100.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044601_996.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044601_996.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044605_869" title="20241103_044605_869" onstart="" thumburl="panos/20241103_044605_869.tiles/thumb.jpg" lat="9.99298611" lng="76.35843056" alt="-83.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044605_869.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044605_869.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044609_885" title="20241103_044609_885" onstart="" thumburl="panos/20241103_044609_885.tiles/thumb.jpg" lat="9.99304444" lng="76.35844167" alt="-84.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044609_885.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044609_885.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044613_558" title="20241103_044613_558" onstart="" thumburl="panos/20241103_044613_558.tiles/thumb.jpg" lat="9.99302778" lng="76.35834444" alt="-93.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044613_558.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044613_558.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044617_489" title="20241103_044617_489" onstart="" thumburl="panos/20241103_044617_489.tiles/thumb.jpg" lat="9.99303611" lng="76.35831944" alt="-95.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044617_489.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044617_489.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044621_357" title="20241103_044621_357" onstart="" thumburl="panos/20241103_044621_357.tiles/thumb.jpg" lat="9.99304722" lng="76.35829722" alt="-94.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044621_357.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044621_357.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044625_402" title="20241103_044625_402" onstart="" thumburl="panos/20241103_044625_402.tiles/thumb.jpg" lat="9.99325278" lng="76.35855278" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044625_402.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044625_402.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044629_108" title="20241103_044629_108" onstart="" thumburl="panos/20241103_044629_108.tiles/thumb.jpg" lat="9.99322778" lng="76.35864722" alt="-86.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044629_108.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044629_108.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044633_029" title="20241103_044633_029" onstart="" thumburl="panos/20241103_044633_029.tiles/thumb.jpg" lat="9.99329444" lng="76.35865833" alt="-95.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044633_029.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044633_029.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044637_068" title="20241103_044637_068" onstart="" thumburl="panos/20241103_044637_068.tiles/thumb.jpg" lat="9.99327222" lng="76.35864444" alt="-97.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044637_068.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044637_068.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044640_635" title="20241103_044640_635" onstart="" thumburl="panos/20241103_044640_635.tiles/thumb.jpg" lat="9.99323333" lng="76.35862222" alt="-94.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044640_635.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044640_635.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044646_216" title="20241103_044646_216" onstart="" thumburl="panos/20241103_044646_216.tiles/thumb.jpg" lat="9.99329444" lng="76.35848333" alt="-89.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044646_216.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044646_216.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044658_495" title="20241103_044658_495" onstart="" thumburl="panos/20241103_044658_495.tiles/thumb.jpg" lat="9.99339722" lng="76.35844167" alt="-89.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044658_495.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044658_495.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044711_921" title="20241103_044711_921" onstart="" thumburl="panos/20241103_044711_921.tiles/thumb.jpg" lat="9.99350556" lng="76.35838056" alt="-91.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044711_921.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044711_921.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044724_731" title="20241103_044724_731" onstart="" thumburl="panos/20241103_044724_731.tiles/thumb.jpg" lat="9.99342778" lng="76.35839167" alt="-96.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044724_731.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044724_731.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044737_878" title="20241103_044737_878" onstart="" thumburl="panos/20241103_044737_878.tiles/thumb.jpg" lat="9.99349444" lng="76.35843889" alt="-104.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044737_878.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044737_878.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044750_060" title="20241103_044750_060" onstart="" thumburl="panos/20241103_044750_060.tiles/thumb.jpg" lat="9.99354444" lng="76.35836944" alt="-110.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044750_060.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044750_060.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044815_011" title="20241103_044815_011" onstart="" thumburl="panos/20241103_044815_011.tiles/thumb.jpg" lat="9.99355278" lng="76.35837500" alt="-96.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044815_011.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044815_011.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044838_843" title="20241103_044838_843" onstart="" thumburl="panos/20241103_044838_843.tiles/thumb.jpg" lat="9.99343889" lng="76.35838333" alt="-99.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044838_843.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044838_843.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044851_283" title="20241103_044851_283" onstart="" thumburl="panos/20241103_044851_283.tiles/thumb.jpg" lat="9.99342500" lng="76.35838056" alt="-101.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044851_283.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044851_283.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044904_122" title="20241103_044904_122" onstart="" thumburl="panos/20241103_044904_122.tiles/thumb.jpg" lat="9.99329444" lng="76.35825278" alt="-99.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044904_122.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044904_122.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044917_203" title="20241103_044917_203" onstart="" thumburl="panos/20241103_044917_203.tiles/thumb.jpg" lat="9.99325833" lng="76.35809444" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044917_203.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044917_203.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044930_287" title="20241103_044930_287" onstart="" thumburl="panos/20241103_044930_287.tiles/thumb.jpg" lat="9.99320833" lng="76.35812500" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044930_287.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044930_287.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044942_863" title="20241103_044942_863" onstart="" thumburl="panos/20241103_044942_863.tiles/thumb.jpg" lat="9.99317222" lng="76.35818333" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044942_863.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044942_863.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_044955_042" title="20241103_044955_042" onstart="" thumburl="panos/20241103_044955_042.tiles/thumb.jpg" lat="9.99329167" lng="76.35823056" alt="-91.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_044955_042.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_044955_042.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045006_963" title="20241103_045006_963" onstart="" thumburl="panos/20241103_045006_963.tiles/thumb.jpg" lat="9.99313889" lng="76.35834722" alt="-87.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045006_963.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045006_963.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045019_404" title="20241103_045019_404" onstart="" thumburl="panos/20241103_045019_404.tiles/thumb.jpg" lat="9.99322500" lng="76.35836389" alt="-85.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045019_404.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045019_404.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045032_244" title="20241103_045032_244" onstart="" thumburl="panos/20241103_045032_244.tiles/thumb.jpg" lat="9.99304167" lng="76.35844167" alt="-96.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045032_244.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045032_244.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045044_474" title="20241103_045044_474" onstart="" thumburl="panos/20241103_045044_474.tiles/thumb.jpg" lat="9.99246389" lng="76.35871389" alt="-85.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045044_474.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045044_474.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045057_202" title="20241103_045057_202" onstart="" thumburl="panos/20241103_045057_202.tiles/thumb.jpg" lat="9.99258611" lng="76.35864444" alt="-94.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045057_202.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045057_202.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045110_420" title="20241103_045110_420" onstart="" thumburl="panos/20241103_045110_420.tiles/thumb.jpg" lat="9.99261944" lng="76.35851944" alt="-107.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045110_420.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045110_420.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045134_406" title="20241103_045134_406" onstart="" thumburl="panos/20241103_045134_406.tiles/thumb.jpg" lat="9.99230833" lng="76.35857500" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045134_406.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045134_406.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045147_798" title="20241103_045147_798" onstart="" thumburl="panos/20241103_045147_798.tiles/thumb.jpg" lat="9.99238056" lng="76.35844722" alt="-75.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045147_798.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045147_798.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045159_739" title="20241103_045159_739" onstart="" thumburl="panos/20241103_045159_739.tiles/thumb.jpg" lat="9.99250556" lng="76.35838611" alt="-66.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045159_739.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045159_739.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045204_655" title="20241103_045204_655" onstart="" thumburl="panos/20241103_045204_655.tiles/thumb.jpg" lat="9.99238889" lng="76.35845278" alt="-67.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045204_655.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045204_655.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045207_885" title="20241103_045207_885" onstart="" thumburl="panos/20241103_045207_885.tiles/thumb.jpg" lat="9.99250556" lng="76.35824444" alt="-64.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045207_885.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045207_885.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045211_695" title="20241103_045211_695" onstart="" thumburl="panos/20241103_045211_695.tiles/thumb.jpg" lat="9.99273333" lng="76.35785278" alt="-68.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045211_695.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045211_695.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045215_247" title="20241103_045215_247" onstart="" thumburl="panos/20241103_045215_247.tiles/thumb.jpg" lat="9.99233056" lng="76.35869444" alt="-46.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045215_247.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045215_247.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045218_717" title="20241103_045218_717" onstart="" thumburl="panos/20241103_045218_717.tiles/thumb.jpg" lat="9.99225000" lng="76.35816667" alt="-48.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045218_717.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045218_717.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045225_682" title="20241103_045225_682" onstart="" thumburl="panos/20241103_045225_682.tiles/thumb.jpg" lat="9.99229167" lng="76.35814444" alt="-46.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045225_682.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045225_682.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045229_545" title="20241103_045229_545" onstart="" thumburl="panos/20241103_045229_545.tiles/thumb.jpg" lat="9.99256111" lng="76.35820278" alt="-46.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045229_545.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045229_545.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045233_126" title="20241103_045233_126" onstart="" thumburl="panos/20241103_045233_126.tiles/thumb.jpg" lat="9.99255556" lng="76.35866389" alt="-73.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045233_126.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045233_126.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045236_324" title="20241103_045236_324" onstart="" thumburl="panos/20241103_045236_324.tiles/thumb.jpg" lat="9.99273611" lng="76.35862500" alt="-53.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045236_324.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045236_324.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045240_118" title="20241103_045240_118" onstart="" thumburl="panos/20241103_045240_118.tiles/thumb.jpg" lat="9.99278611" lng="76.35863333" alt="-147.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045240_118.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045240_118.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045243_722" title="20241103_045243_722" onstart="" thumburl="panos/20241103_045243_722.tiles/thumb.jpg" lat="9.99218056" lng="76.35892222" alt="-94.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045243_722.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045243_722.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045247_372" title="20241103_045247_372" onstart="" thumburl="panos/20241103_045247_372.tiles/thumb.jpg" lat="9.99233611" lng="76.35867500" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045247_372.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045247_372.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045250_932" title="20241103_045250_932" onstart="" thumburl="panos/20241103_045250_932.tiles/thumb.jpg" lat="9.99244722" lng="76.35855000" alt="-92.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045250_932.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045250_932.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045254_636" title="20241103_045254_636" onstart="" thumburl="panos/20241103_045254_636.tiles/thumb.jpg" lat="9.99248889" lng="76.35848611" alt="-94.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045254_636.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045254_636.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045258_296" title="20241103_045258_296" onstart="" thumburl="panos/20241103_045258_296.tiles/thumb.jpg" lat="9.99258889" lng="76.35841389" alt="-95.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045258_296.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045258_296.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045302_047" title="20241103_045302_047" onstart="" thumburl="panos/20241103_045302_047.tiles/thumb.jpg" lat="9.99295833" lng="76.35789444" alt="-99.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045302_047.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045302_047.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045305_649" title="20241103_045305_649" onstart="" thumburl="panos/20241103_045305_649.tiles/thumb.jpg" lat="9.99247778" lng="76.35849722" alt="-105.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045305_649.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045305_649.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045309_344" title="20241103_045309_344" onstart="" thumburl="panos/20241103_045309_344.tiles/thumb.jpg" lat="9.99226944" lng="76.35873333" alt="-105.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045309_344.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045309_344.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045313_086" title="20241103_045313_086" onstart="" thumburl="panos/20241103_045313_086.tiles/thumb.jpg" lat="9.99232500" lng="76.35882500" alt="-109.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045313_086.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045313_086.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045316_792" title="20241103_045316_792" onstart="" thumburl="panos/20241103_045316_792.tiles/thumb.jpg" lat="9.99252222" lng="76.35890000" alt="-113.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045316_792.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045316_792.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045320_289" title="20241103_045320_289" onstart="" thumburl="panos/20241103_045320_289.tiles/thumb.jpg" lat="9.99288889" lng="76.35915833" alt="-193.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045320_289.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045320_289.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045323_924" title="20241103_045323_924" onstart="" thumburl="panos/20241103_045323_924.tiles/thumb.jpg" lat="9.99265556" lng="76.35882500" alt="-220.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045323_924.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045323_924.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045327_361" title="20241103_045327_361" onstart="" thumburl="panos/20241103_045327_361.tiles/thumb.jpg" lat="9.99300278" lng="76.35847778" alt="-88.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045327_361.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045327_361.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045330_748" title="20241103_045330_748" onstart="" thumburl="panos/20241103_045330_748.tiles/thumb.jpg" lat="9.99289167" lng="76.35869444" alt="-87.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045330_748.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045330_748.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045334_480" title="20241103_045334_480" onstart="" thumburl="panos/20241103_045334_480.tiles/thumb.jpg" lat="9.99292500" lng="76.35852778" alt="-95.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045334_480.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045334_480.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045338_127" title="20241103_045338_127" onstart="" thumburl="panos/20241103_045338_127.tiles/thumb.jpg" lat="9.99276667" lng="76.35861944" alt="-105.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045338_127.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045338_127.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045341_767" title="20241103_045341_767" onstart="" thumburl="panos/20241103_045341_767.tiles/thumb.jpg" lat="9.99278056" lng="76.35838611" alt="-70.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045341_767.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045341_767.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045345_804" title="20241103_045345_804" onstart="" thumburl="panos/20241103_045345_804.tiles/thumb.jpg" lat="9.99261667" lng="76.35845000" alt="-80.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045345_804.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045345_804.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045349_097" title="20241103_045349_097" onstart="" thumburl="panos/20241103_045349_097.tiles/thumb.jpg" lat="9.99255278" lng="76.35855833" alt="-80.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045349_097.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045349_097.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045353_027" title="20241103_045353_027" onstart="" thumburl="panos/20241103_045353_027.tiles/thumb.jpg" lat="9.99260278" lng="76.35856667" alt="-84.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045353_027.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045353_027.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045356_776" title="20241103_045356_776" onstart="" thumburl="panos/20241103_045356_776.tiles/thumb.jpg" lat="9.99244722" lng="76.35862222" alt="-106.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045356_776.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045356_776.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045400_531" title="20241103_045400_531" onstart="" thumburl="panos/20241103_045400_531.tiles/thumb.jpg" lat="9.99228611" lng="76.35863611" alt="-92.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045400_531.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045400_531.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045404_028" title="20241103_045404_028" onstart="" thumburl="panos/20241103_045404_028.tiles/thumb.jpg" lat="9.99248611" lng="76.35885278" alt="-76.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045404_028.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045404_028.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045407_017" title="20241103_045407_017" onstart="" thumburl="panos/20241103_045407_017.tiles/thumb.jpg" lat="9.99259167" lng="76.35865000" alt="-60.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045407_017.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045407_017.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045410_713" title="20241103_045410_713" onstart="" thumburl="panos/20241103_045410_713.tiles/thumb.jpg" lat="9.99363056" lng="76.35943333" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045410_713.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045410_713.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045414_262" title="20241103_045414_262" onstart="" thumburl="panos/20241103_045414_262.tiles/thumb.jpg" lat="9.99363056" lng="76.35943333" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045414_262.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045414_262.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_045421_431" title="20241103_045421_431" onstart="" thumburl="panos/20241103_045421_431.tiles/thumb.jpg" lat="9.99363056" lng="76.35943333" alt="-90.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_045421_431.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_045421_431.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_125204_831" title="20241103_125204_831" onstart="" thumburl="panos/20241103_125204_831.tiles/thumb.jpg" lat="9.99281389" lng="76.35906667" alt="-69.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_125204_831.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_125204_831.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20241103_125208_846" title="20241103_125208_846" onstart="" thumburl="panos/20241103_125208_846.tiles/thumb.jpg" lat="9.99264722" lng="76.35884722" alt="-54.00" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20241103_125208_846.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20241103_125208_846.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+
+</krpano>
